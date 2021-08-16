@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card {
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-image {
+    background-image: url('images/illustration-hero.svg');
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    height: 218px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: grey;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-image {
+    margin: 1em;
+    height: 100%;
+    width: auto;
+}
+
+.plan-type {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.plan-price {
+    color: grey;
+    height: 100%;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+}
+
+.order-action {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 3em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cancel-order {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: grey;
+
+}
